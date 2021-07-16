@@ -1,0 +1,49 @@
+.header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+.header .left{
+    display: flex;
+    justify-content: space-between;
+}
+.header .left .info{
+    margin-left: 20px;
+}
+.header .left .info p{
+    color: #cecdcd;
+}
+
+.mainchat{
+    height: calc(100vh - 150px);
+    background-color: #e5ddd5;
+    overflow: scroll;
+    padding-bottom: 80px;
+    
+}
+.mainchat::-webkit-scrollbar {
+    display: none;
+  }
+.form{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    
+}
+.form input{
+    padding: 15px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+}
+.form form {
+    margin: 0 10px;
+}
+.form form button{
+    display: none;
+}

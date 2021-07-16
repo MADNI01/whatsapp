@@ -1,0 +1,29 @@
+.login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login svg{
+    fill: white;
+    background-color: #13ae0c;
+    margin-bottom: 40px;
+}
+.login button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 16px;
+    border: 4px #13ae0c solid ;
+    transition: 0.3s;
+    font-size: 20px;
+    background-color: white;
+}
+.login button:hover{
+    background-color: #13ae0c ;
+    padding: 10px 40px;
+    color: white;
+
+}

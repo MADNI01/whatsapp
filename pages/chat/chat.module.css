@@ -1,0 +1,42 @@
+.chat {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  overflow: hidden;
+}
+
+.arrow{
+  display: none;
+}
+@media (max-width: 800px){
+  .chat {
+    grid-template-columns: 1fr;
+  }
+  .hide {
+    position: fixed;
+    transform: translateX(-100%);
+    transition: 0.5s;
+    z-index: 2;
+    height: 100vh;
+    background-color: white;
+  
+  }
+  .hide >div{
+    overflow: hidden;
+  }
+  
+  .show {
+    position: fixed;
+    transition: 0.5s;
+    transform: translateX(0%);
+    z-index: 2;
+    height: 100vh;
+    background-color: white;
+  }
+  .arrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -34px;
+  }
+  
+}
