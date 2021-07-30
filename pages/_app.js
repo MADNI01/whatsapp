@@ -2,12 +2,12 @@ import { auth, db } from "../firebase/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import "../styles/globals.css";
 import Login from "./login";
-import Loading from "../components/Loading";
+
 import { useEffect } from "react";
 import firebase from "firebase";
 
 function MyApp({ Component, pageProps }) {
-  const [user, loading] = useAuthState(auth);
+  const [user] = useAuthState(auth);
  
 
   useEffect(()=>{
@@ -20,7 +20,6 @@ function MyApp({ Component, pageProps }) {
     }
   },[user])
 
-  if (loading) return <Loading />;
   if (!user) return <Login />;
 
   if (user) return <Component {...pageProps} />;
