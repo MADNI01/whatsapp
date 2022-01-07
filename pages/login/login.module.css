@@ -10,10 +10,9 @@
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   border-radius: 0 0 40px 40px;
 }
-.auth .title svg {
-  width: 60px;
-  height: 60px;
-  color: #25d366;
+.auth .title img {
+  width: 90px;
+  height: 90px;
 }
 .auth .title h2 {
   font-size: 50px;
@@ -146,8 +145,8 @@
 .auth .info form > button {
   margin-top: 30px;
   padding: 10px 60px;
-  border: 2px solid #25d366;
-  background-color: #25d366;
+  border: 2px solid #006ec3;
+  background-color: #006ec3;
   color: white;
   font-size: 15px;
   border-radius: 8px;

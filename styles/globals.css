@@ -3,3 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+#nprogress .bar {
+  background: #00bfa5;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #00bfa5;
+  border-left-color: #00bfa5;
+}

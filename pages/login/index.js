@@ -57,7 +57,7 @@ const SignUp = () => {
   return (
     <div className={classes.auth}>
       <div className={classes.title}>
-        <WhatsAppIcon />
+        <img src="maku-logo.png"/>
       </div>
       <div className={classes.info}>
         <form onSubmit={authHandler}>
