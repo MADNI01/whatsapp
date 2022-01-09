@@ -4,7 +4,10 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Home</title>
+    <Head>
+        <title>Maku Sosyal</title>
+        <link rel="icon" href="maku-logoo.png" type="image/png" />
+      </Head>
     </Head>
     <SideBar />
     </>

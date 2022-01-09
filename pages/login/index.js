@@ -57,7 +57,7 @@ const SignUp = () => {
   return (
     <div className={classes.auth}>
       <div className={classes.title}>
-        <img src="maku-logo.png"/>
+        <img src="maku-logoo.png"/>
       </div>
       <div className={classes.info}>
         <form onSubmit={authHandler}>

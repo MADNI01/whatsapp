@@ -26,7 +26,8 @@
 .sender > div{
     padding: 15px;
     margin: 10px 20px;
-    background-color: #dcf8c6;
+    background-color: #006ec3;
+    color: white;
     min-width: 60px;
     width: fit-content;
     border-radius: 8px;
@@ -40,6 +41,6 @@
     font-size: 0.8em;
     bottom: 0px;
     left: 5px;
-    color: #889a7b;
+    color: white;
     
 }

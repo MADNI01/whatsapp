@@ -41,6 +41,7 @@ function MyApp({ Component, pageProps }) {
           crossorigin="anonymous"
           referrerpolicy="no-referrer"
         />
+        
       </Head>
   <Component {...pageProps} />;
   </>)
